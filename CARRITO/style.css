@@ -1,0 +1,38 @@
+.table-2{
+    background-color: rgba(255, 192, 203, 0.247);
+    border: none;    
+}
+
+.table__productos{
+display: flex;
+}
+ 
+.table__productos > img{
+    width: 9rem;
+    object-fit:contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad >input{
+    width: 40px;
+    border:none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.itemCarTotal{
+    width: 224%;
+    text-align: end;
+    margin-top: 30px;
+}
+
+.itemCarTotal2{
+    width: 165%;
+    text-align: end;
+    margin-top: 30px;
+}
+
